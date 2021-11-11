@@ -4,7 +4,7 @@
  * @Date: 2021-11-10 18:49:51
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-11-10 23:06:05
+ * @LastEditTime: 2021-11-11 10:18:17
  * @LastEditors: Harry
 -->
 <template>
@@ -222,7 +222,7 @@ export default {
       change = setTimeout(() => {
         document.head
           .querySelector('#skin')
-          .setAttribute('href', `/skin/${type}.css`)
+          .setAttribute('href', `./skin/${type}.css`)
       }, 100)
     }
   },
