@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #efefef;
+  --font-size: 18px;
+  --font-color: #333;
+  --b-l-color: #f8b62d;
+  --bg-page: #fff;
+  --bg-conent: #efefef;
+  --btn-border: #000;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
