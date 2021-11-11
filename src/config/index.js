@@ -4,7 +4,7 @@
  * @Date: 2021-11-10 19:00:41
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-11-10 21:49:28
+ * @LastEditTime: 2021-11-11 10:51:47
  * @LastEditors: Harry
  */
 const CONFIG = {
@@ -40,6 +40,11 @@ const CONFIG = {
         name: '知乎',
         link: 'https://www.zhihu.com/people/iui9',
         value: 'https://www.zhihu.com/people/iui9'
+      },
+      {
+        name: '语雀',
+        link: 'https://www.yuque.com/hr_iu',
+        value: 'https://www.yuque.com/hr_iu'
       },
       {
         name: '最喜欢的话',
