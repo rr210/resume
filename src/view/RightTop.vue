@@ -4,7 +4,7 @@
  * @Date: 2021-11-04 11:52:24
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-11-04 19:57:32
+ * @LastEditTime: 2021-11-11 10:40:10
  * @LastEditors: Harry
 -->
 <template>
@@ -48,7 +48,7 @@
 export default {}
 </script>
 <style scoped>
-.heads_top{
+.heads_top {
   position: absolute;
   top: 0;
   right: 0;

@@ -4,7 +4,7 @@
  * @Date: 2021-11-10 18:49:51
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-11-11 10:18:17
+ * @LastEditTime: 2021-11-11 10:41:37
  * @LastEditors: Harry
 -->
 <template>
@@ -201,7 +201,7 @@
 import RightTop from './RightTop.vue'
 import CONFIG from '../config/index.js'
 export default {
-  data () {
+  data() {
     return {
       contactList: CONFIG.contact, // 联系方式
       techList: CONFIG.personMessage, // 个人信息
@@ -211,9 +211,20 @@ export default {
       themeSeleted: ['dark', 'light']
     }
   },
+  mounted() {
+    this.judgeTime()
+  },
   methods: {
+    // 判断当前的时间段 来决定当前页面的主题皮肤
+    judgeTime() {
+      const t = new Date()
+      const h = t.getHours()
+      if (h > 20 && h > 0 && h < 7) {
+        this.changeSkin('dark')
+      }
+    },
     // type为night或者day
-    changeSkin (type) {
+    changeSkin(type) {
       // 节流防止疯狂点击
       let change = null
       if (change) {

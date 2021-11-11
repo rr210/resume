@@ -7,7 +7,7 @@
 <script>
 import Resume from './view/Resume.vue'
 export default {
-  data () {
+  data() {
     return {}
   },
   components: { Resume }
