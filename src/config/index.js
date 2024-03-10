@@ -12,7 +12,7 @@ const CONFIG = {
   contact: [
     {
       name: '手机',
-      value: '19834410907'
+      value: '136xxxxxxxxx'
     },
     {
       name: 'Email',
@@ -20,7 +20,7 @@ const CONFIG = {
     },
     {
       name: 'QQ/微信',
-      value: 'www1577791638'
+      value: 'xxxxx'
     }
   ],
   // 个人信息页面展示
